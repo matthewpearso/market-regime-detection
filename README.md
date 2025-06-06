@@ -1,31 +1,3 @@
-# Market Regime Adaptive Strategy Backtester
-
-This project detects historical market regimes (e.g., bull, bear, sideways) using unsupervised learning and applies regime-specific trading strategies to optimize performance.
-
-## 📈 Key Features
-- Regime detection using K-Means and HMM
-- Momentum and mean reversion trading strategies
-- Adaptive strategy switching
-- Backtesting and performance evaluation
-
-## 🧪 Technologies Used
-- Python (pandas, scikit-learn, hmmlearn, Backtrader)
-- yFinance for historical data
-- Matplotlib and Seaborn for visualization
-
-## 🗂️ Folder Guide
-- `notebooks/` – Step-by-step development
-- `src/` – Modular codebase for reuse and testing
-- `reports/` – Result plots and summary
-- `dashboard/` – (Optional) Streamlit app
-
-## 📊 Sample Results
-![Cumulative Returns](reports/performance_summary.png)
-
-## 🚀 Getting Started
-```bash
-pip install -r requirements.txt
-python src/backtester.py
 
 quant-regime-trader/
 │
