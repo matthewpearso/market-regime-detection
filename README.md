@@ -1,5 +1,4 @@
-
-quant-regime-trader/
+market-regime-detection project:
 │
 ├── 📁 data/                         # Raw and processed data
 │   ├── sp500.csv
@@ -7,11 +6,10 @@ quant-regime-trader/
 │   └── features.csv
 │
 ├── 📁 notebooks/                   # Jupyter notebooks for exploration
-│   ├── 01_data_download.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_regime_detection.ipynb
-│   ├── 04_strategy_design.ipynb
-│   └── 05_backtesting_evaluation.ipynb
+│   ├── data_organization.ipynb
+│   ├── regime_detection.ipynb
+│   ├── strategy_design.ipynb
+│   └── backtesting_evaluation.ipynb
 │
 ├── 📁 src/                         # Core codebase
 │   ├── __init__.py
