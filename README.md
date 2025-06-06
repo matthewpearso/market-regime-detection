@@ -13,7 +13,7 @@ market-regime-detection project:
 │
 ├── 📁 src/                         # Core codebase
 │   ├── __init__.py
-│   ├── data_loader.py             # Load and process raw data
+│   ├── data_loader.py             # Load, process, and calculate new data
 │   ├── features.py                # Feature engineering logic
 │   ├── regime_model.py            # Clustering/HMM models
 │   ├── strategy/                  # Trading strategy classes
